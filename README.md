@@ -1,5 +1,5 @@
 # 💫 About Me:
-🚀 I'm Wansh Kumbhalkar<br>CSE student | Cybersecurity Enthusiast || NCC | Builder<br><br>💻 Looking for real-world tech projects<br><br>🔐 Interested in Cybersecurity & CTF Development<br><br>🌐 Building full-stack websites & smart Projects<br><br>🧠 Learning emerging tech<br><br>"Learn → Build → Break → Improve"
+🚀 I'm Wansh Kumbhalkar<br>CSE student | Cybersecurity Enthusiast | NCC | Builder<br><br>💻 Looking for real-world tech projects<br><br>🔐 Interested in Cybersecurity & CTF Development<br><br>🌐 Building full-stack websites & smart Projects<br><br>🧠 Learning emerging tech<br><br>"Learn → Build → Break → Improve"
 
 
 ## 🌐 Socials:
