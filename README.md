@@ -66,7 +66,7 @@
 ## Unlocks
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=WANSHKUMBHALKAR&theme=onedark&no-frame=true&no-bg=true&margin-w=8&margin-h=8" alt="GitHub trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WANSHKUMBHALKAR&theme=github_dark" alt="GitHub profile details" />
 </p>
 
 ## Control Panel
