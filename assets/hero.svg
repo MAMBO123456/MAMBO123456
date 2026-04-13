@@ -1,1 +1,60 @@
-
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .grid { stroke: #1f3b45; stroke-width: 1; opacity: .35; }
+    .soft { filter: blur(40px); opacity: .5; }
+    .title { font: 800 58px 'Segoe UI', Arial, sans-serif; letter-spacing: 4px; fill: #f8fafc; }
+    .sub { font: 600 21px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #a7f3d0; }
+    .mono { font: 700 16px 'Consolas', 'Courier New', monospace; fill: #e2e8f0; }
+    .label { font: 700 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.5px; fill: #67e8f9; }
+    .panel { fill: rgba(15,23,42,.78); stroke: #164e63; stroke-width: 1.5; }
+    .chip { fill: rgba(2,6,23,.82); stroke: #22c55e; stroke-width: 1; }
+    .scan { fill: url(#scanGrad); opacity: .55; animation: scan 4.8s linear infinite; }
+    .pulse { animation: pulse 2.2s ease-in-out infinite alternate; }
+    .drift { animation: drift 6s ease-in-out infinite alternate; }
+    @keyframes scan { from { transform: translateY(-180px); } to { transform: translateY(360px); } }
+    @keyframes pulse { from { opacity: .45; } to { opacity: 1; } }
+    @keyframes drift { from { transform: translateX(-8px); } to { transform: translateX(8px); } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360">
+      <stop stop-color="#020617"/>
+      <stop offset=".45" stop-color="#0f172a"/>
+      <stop offset=".72" stop-color="#134e4a"/>
+      <stop offset="1" stop-color="#0369a1"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(232 92) rotate(40) scale(270 140)">
+      <stop stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(994 82) rotate(130) scale(300 160)">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="90">
+      <stop stop-color="#67e8f9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle class="soft drift" cx="230" cy="82" r="180" fill="url(#orb1)"/>
+  <circle class="soft drift" cx="980" cy="78" r="200" fill="url(#orb2)"/>
+  <g>
+    <path class="grid" d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M0 300H1200"/>
+    <path class="grid" d="M100 0V360M220 0V360M340 0V360M460 0V360M580 0V360M700 0V360M820 0V360M940 0V360M1060 0V360"/>
+  </g>
+  <rect class="scan" x="0" y="-90" width="1200" height="90"/>
+  <rect class="panel" x="70" y="66" width="1060" height="214" rx="24"/>
+  <path class="pulse" d="M96 96H280M920 96H1104M96 250H370M820 250H1104" stroke="#67e8f9" stroke-width="2"/>
+  <text class="label" x="96" y="124">PROFILE / SECURITY BUILDER</text>
+  <text class="title" x="94" y="188">WANSH KUMBHALKAR</text>
+  <text class="sub" x="98" y="230">CSE STUDENT  |  CYBER SECURITY  |  FULL STACK  |  NCC</text>
+  <g transform="translate(828 128)">
+    <rect class="chip" x="0" y="0" width="220" height="38" rx="10"/>
+    <text class="mono" x="20" y="25">status: building</text>
+    <rect class="chip" x="0" y="52" width="220" height="38" rx="10"/>
+    <text class="mono" x="20" y="77">mode: security-first</text>
+    <rect class="chip" x="0" y="104" width="220" height="38" rx="10"/>
+    <text class="mono" x="20" y="129">focus: useful systems</text>
+  </g>
+</svg>

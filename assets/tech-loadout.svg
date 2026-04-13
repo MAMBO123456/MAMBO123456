@@ -1,0 +1,55 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #020617; }
+    .panel { fill: #0f172a; stroke: #1e3a46; stroke-width: 1.4; }
+    .card { fill: #111827; stroke-width: 1.2; }
+    .green { stroke: #22c55e; }
+    .cyan { stroke: #38bdf8; }
+    .orange { stroke: #f97316; }
+    .title { font: 800 34px 'Segoe UI', Arial, sans-serif; letter-spacing: 3px; fill: #f8fafc; }
+    .sub { font: 600 15px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; fill: #94a3b8; }
+    .head { font: 800 18px 'Segoe UI', Arial, sans-serif; fill: #e2e8f0; }
+    .body { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #cbd5e1; }
+    .mono { font: 700 14px 'Consolas', 'Courier New', monospace; fill: #67e8f9; }
+    .scan { opacity: .55; animation: scan 5s linear infinite; }
+    .pulse { animation: pulse 2.5s ease-in-out infinite alternate; }
+    @keyframes scan { from { transform: translateX(-260px); } to { transform: translateX(1200px); } }
+    @keyframes pulse { from { opacity: .45; } to { opacity: 1; } }
+  </style>
+  <rect class="bg" width="1200" height="420" rx="28"/>
+  <rect class="panel" x="42" y="36" width="1116" height="348" rx="24"/>
+  <rect class="scan" x="-260" y="36" width="180" height="348" fill="#38bdf8" opacity=".08"/>
+  <text class="title" x="72" y="88">TECH LOADOUT</text>
+  <text class="sub" x="74" y="116">Fixed-width stack board for code, security, systems, and deployment workflows</text>
+  <g transform="translate(74 154)">
+    <rect class="card green" x="0" y="0" width="250" height="120" rx="18"/>
+    <text class="head" x="22" y="35">Code Core</text>
+    <text class="body" x="22" y="66">C, HTML, CSS, JavaScript</text>
+    <text class="mono" x="22" y="94">logic -> UI -> iteration</text>
+  </g>
+  <g transform="translate(346 154)">
+    <rect class="card cyan" x="0" y="0" width="250" height="120" rx="18"/>
+    <text class="head" x="22" y="35">Security Track</text>
+    <text class="body" x="22" y="66">Linux, networking, CTFs</text>
+    <text class="mono" x="22" y="94">learn -> test -> harden</text>
+  </g>
+  <g transform="translate(618 154)">
+    <rect class="card green" x="0" y="0" width="250" height="120" rx="18"/>
+    <text class="head" x="22" y="35">Project Tools</text>
+    <text class="body" x="22" y="66">Git, GitHub, Figma, Canva</text>
+    <text class="mono" x="22" y="94">design -> version -> ship</text>
+  </g>
+  <g transform="translate(890 154)">
+    <rect class="card orange" x="0" y="0" width="250" height="120" rx="18"/>
+    <text class="head" x="22" y="35">Deploy Desk</text>
+    <text class="body" x="22" y="66">Docker, Vercel, workflows</text>
+    <text class="mono" x="22" y="94">build -> deploy -> improve</text>
+  </g>
+  <g class="pulse">
+    <circle cx="94" cy="326" r="7" fill="#22c55e"/>
+    <path d="M108 326H1092" stroke="#164e63" stroke-width="3"/>
+    <circle cx="384" cy="326" r="7" fill="#38bdf8"/>
+    <circle cx="674" cy="326" r="7" fill="#22c55e"/>
+    <circle cx="964" cy="326" r="7" fill="#f97316"/>
+  </g>
+</svg>

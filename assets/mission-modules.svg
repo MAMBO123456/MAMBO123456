@@ -1,0 +1,85 @@
+<svg width="1200" height="1080" viewBox="0 0 1200 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #020617; }
+    .panel { fill: #0f172a; stroke: #164e63; stroke-width: 1.2; }
+    .section { fill: #111827; stroke-width: 1.2; }
+    .green { stroke: #22c55e; }
+    .cyan { stroke: #38bdf8; }
+    .orange { stroke: #f97316; }
+    .blue { stroke: #0284c7; }
+    .title { font: 900 38px 'Segoe UI', Arial, sans-serif; letter-spacing: 4px; fill: #f8fafc; }
+    .sectionTitle { font: 800 24px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #f8fafc; }
+    .small { font: 700 14px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; fill: #94a3b8; }
+    .mono { font: 700 15px 'Consolas', 'Courier New', monospace; fill: #cbd5e1; }
+    .accent { fill: #67e8f9; }
+    .scan { animation: scan 5.5s linear infinite; opacity: .45; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite alternate; }
+    @keyframes scan { from { transform: translateY(-170px); } to { transform: translateY(1080px); } }
+    @keyframes pulse { from { opacity: .45; } to { opacity: 1; } }
+  </style>
+  <rect class="bg" width="1200" height="1080" rx="30"/>
+  <rect x="0" y="-170" width="1200" height="120" fill="#38bdf8" class="scan"/>
+  <rect class="panel" x="42" y="42" width="1116" height="996" rx="26"/>
+  <text class="title" x="72" y="104">MISSION MODULES</text>
+  <text class="small" x="74" y="132">Control Panel -> Build Map -> Current Quests -> Project Direction -> Contact Route</text>
+
+  <g transform="translate(72 170)">
+    <rect class="section green" x="0" y="0" width="1056" height="150" rx="20"/>
+    <text class="sectionTitle" x="28" y="42">CONTROL PANEL</text>
+    <text class="mono" x="28" y="76">identity     : CSE Student | Cyber Security Enthusiast | NCC Cadet</text>
+    <text class="mono" x="28" y="102">current mode : learn by building, testing, breaking, and improving</text>
+    <text class="mono" x="28" y="128">main track   : web security, CTFs, Linux, networking, deployment</text>
+    <circle class="pulse" cx="1008" cy="38" r="10" fill="#22c55e"/>
+  </g>
+
+  <g transform="translate(72 350)">
+    <rect class="section cyan" x="0" y="0" width="1056" height="220" rx="20"/>
+    <text class="sectionTitle" x="28" y="42">BUILD MAP</text>
+    <g transform="translate(28 70)">
+      <rect x="0" y="0" width="240" height="112" rx="14" fill="#0f172a" stroke="#22c55e"/>
+      <text class="mono" x="18" y="32">Security Lab</text>
+      <text class="small" x="18" y="62">Linux | Web Security</text>
+      <text class="small" x="18" y="88">CTF challenges</text>
+    </g>
+    <g transform="translate(282 70)">
+      <rect x="0" y="0" width="240" height="112" rx="14" fill="#0f172a" stroke="#38bdf8"/>
+      <text class="mono" x="18" y="32">Web Workshop</text>
+      <text class="small" x="18" y="62">HTML | CSS | JS</text>
+      <text class="small" x="18" y="88">Responsive builds</text>
+    </g>
+    <g transform="translate(536 70)">
+      <rect x="0" y="0" width="240" height="112" rx="14" fill="#0f172a" stroke="#0284c7"/>
+      <text class="mono" x="18" y="32">System Desk</text>
+      <text class="small" x="18" y="62">Docker | Deployments</text>
+      <text class="small" x="18" y="88">Debugging habits</text>
+    </g>
+    <g transform="translate(790 70)">
+      <rect x="0" y="0" width="238" height="112" rx="14" fill="#0f172a" stroke="#f97316"/>
+      <text class="mono" x="18" y="32">NCC Mindset</text>
+      <text class="small" x="18" y="62">Discipline | Teamwork</text>
+      <text class="small" x="18" y="88">Consistent execution</text>
+    </g>
+  </g>
+
+  <g transform="translate(72 600)">
+    <rect class="section green" x="0" y="0" width="1056" height="130" rx="20"/>
+    <text class="sectionTitle" x="28" y="42">CURRENT QUESTS</text>
+    <text class="mono" x="28" y="78">learn networking + linux + web security</text>
+    <text class="mono" x="420" y="78">build full-stack websites + smart projects</text>
+    <text class="mono" x="28" y="106">practice CTFs + security labs</text>
+    <text class="mono" x="420" y="106">improve docs + code + deployments</text>
+  </g>
+
+  <g transform="translate(72 760)">
+    <rect class="section orange" x="0" y="0" width="1056" height="132" rx="20"/>
+    <text class="sectionTitle" x="28" y="42">PROJECT DIRECTION</text>
+    <text class="mono" x="28" y="78">01 Build security-focused mini projects that prove the concept.</text>
+    <text class="mono" x="28" y="106">02 Create CTF-style challenges, polish frontend work, and keep projects deployable.</text>
+  </g>
+
+  <g transform="translate(72 922)">
+    <rect class="section blue" x="0" y="0" width="1056" height="82" rx="20"/>
+    <text class="sectionTitle" x="28" y="36">CONTACT ROUTE</text>
+    <text class="mono" x="28" y="62">github.com/WANSHKUMBHALKAR  |  linkedin.com/in/wansh-kumbhalkar-85b97b280  |  x.com/WANSH_K</text>
+  </g>
+</svg>
