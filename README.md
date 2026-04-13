@@ -1,69 +1,44 @@
-<h1 align="center">Hi, I'm Wansh Kumbhalkar</h1>
-
-<h3 align="center">
-CSE Student | Cybersecurity Enthusiast | Full-Stack Learner | NCC Cadet | Builder
-</h3>
-
 <p align="center">
-I am passionate about building real-world technology projects, exploring cybersecurity, developing CTF-style challenges, and continuously improving through hands-on learning.
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&text=WANSH%20KUMBHALKAR&fontAlign=50&fontAlignY=36&fontSize=54&desc=CSE%20STUDENT%20%7C%20CYBERSECURITY%20ENTHUSIAST%20%7C%20NCC%20%7C%20BUILDER&descAlign=50&descAlignY=60&color=0:020617,30:0b1120,65:14532d,100:22d3ee&fontColor=e2e8f0" alt="Header" />
 </p>
 
 <p align="center">
-  <a href="https://instagram.com/wansh_kumbhalkar">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?logo=Instagram&logoColor=white" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2400&pause=900&color=22C55E&center=true&vCenter=true&width=980&lines=%24+whoami+wansh-kumbhalkar;%24+focus+--cybersecurity+--ctf+--full-stack;%24+learn+build+break+improve;%24+building+real-world+tech+projects" alt="Typing Intro" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/MAMBO123456" title="GitHub">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="34" height="34" />
   </a>
-  <a href="https://linkedin.com/in/wansh-kumbhalkar-85b97b280">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" />
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/wansh-kumbhalkar-85b97b280" title="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="34" height="34" />
   </a>
-  <a href="https://x.com/@WANSH_K">
-    <img src="https://img.shields.io/badge/X-000000?logo=X&logoColor=white" />
+  &nbsp;&nbsp;
+  <a href="mailto:wanshkumbhalkar.23@stvincentngp.edu.in" title="Gmail">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Gmail" width="34" height="34" />
   </a>
-  <a href="mailto:wanshkumbhalkar.23@stvincentngp.edu.in">
-    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" />
+  &nbsp;&nbsp;
+  <a href="https://instagram.com/wansh_kumbhalkar" title="Instagram">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="34" height="34" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/WANSH_K" title="X">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="X" width="34" height="34" />
   </a>
 </p>
 
----
+## Terminal Identity
 
-## About Me
+```bash
+wansh@github:~$ role
+CSE Student | Cybersecurity Enthusiast | NCC Cadet | Builder
 
-I am a Computer Science Engineering student with a strong interest in cybersecurity, full-stack web development, and smart technology projects. I enjoy learning by building, testing, breaking, and improving systems.
+wansh@github:~$ mission
+Learn deeply.
+Build real-world projects.
+Break systems ethically.
+Improve with discipline.
 
-My current focus is on developing practical technical skills through real-world projects, cybersecurity labs, CTF development, and modern web technologies.
-
-- Interested in cybersecurity, ethical hacking, and CTF challenge development
-- Building full-stack websites and smart project-based solutions
-- Exploring networking, system security, and emerging technologies
-- Open to real-world technical projects, internships, and collaboration
-- NCC cadet with a disciplined, team-oriented, and leadership-driven mindset
-
-> Learn. Build. Break. Improve.
-
----
-
-## Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco-049FD9?style=for-the-badge&logo=cisco&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
-
----
-
-## Areas of Interest
-
-```txt
-Cybersecurity
-CTF Development
-Web Development
-Networking
-Docker
-Smart Projects
-Open Source
-Emerging Technologies
+wansh@github:~$ mindset
+Learn -> Build -> Break -> Improve
