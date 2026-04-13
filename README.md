@@ -26,24 +26,6 @@
 
 ---
 
-## Control Panel
-
-```txt
-identity     : CSE Student | Cyber Security Enthusiast | NCC Cadet
-current mode : learn by building, testing, breaking, and improving
-main track   : web security, CTFs, Linux, networking, deployment
-builder goal : useful projects with clean logic and a security-first mindset
-```
-
-## Build Map
-
-| Zone | What I Work On | Output |
-| --- | --- | --- |
-| Security Lab | Networking, Linux, web security, secure coding | Practice labs, notes, CTF challenges |
-| Web Workshop | HTML, CSS, JavaScript, Git, GitHub, Vercel | Responsive sites and full-stack foundations |
-| System Desk | Docker, deployment flows, debugging habits | Reproducible project setups |
-| NCC Mindset | Discipline, teamwork, consistency | Better focus, leadership, and execution |
-
 ## Tech Loadout
 
 <p align="center">
@@ -58,22 +40,6 @@ builder goal : useful projects with clean logic and a security-first mindset
   <img src="https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=38bdf8" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub-0f172a?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </p>
-
-## Current Quests
-
-```bash
-learn --topic "networking + linux + web security"
-build --type "full-stack websites + smart projects"
-practice --arena "CTFs + security labs"
-improve --habit "write cleaner code, document better, deploy confidently"
-```
-
-## Project Direction
-
-- Build security-focused mini projects that explain the concept while proving it in code.
-- Create CTF-style challenges for practice and learning.
-- Improve frontend polish without losing performance or clarity.
-- Keep projects practical, readable, and deployable.
 
 ## GitHub Dashboard
 
@@ -102,6 +68,40 @@ improve --habit "write cleaner code, document better, deploy confidently"
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=WANSHKUMBHALKAR&theme=onedark&no-frame=true&no-bg=true&margin-w=8&margin-h=8" alt="GitHub trophies" />
 </p>
+
+## Control Panel
+
+```txt
+identity     : CSE Student | Cyber Security Enthusiast | NCC Cadet
+current mode : learn by building, testing, breaking, and improving
+main track   : web security, CTFs, Linux, networking, deployment
+builder goal : useful projects with clean logic and a security-first mindset
+```
+
+## Build Map
+
+| Zone | What I Work On | Output |
+| --- | --- | --- |
+| Security Lab | Networking, Linux, web security, secure coding | Practice labs, notes, CTF challenges |
+| Web Workshop | HTML, CSS, JavaScript, Git, GitHub, Vercel | Responsive sites and full-stack foundations |
+| System Desk | Docker, deployment flows, debugging habits | Reproducible project setups |
+| NCC Mindset | Discipline, teamwork, consistency | Better focus, leadership, and execution |
+
+## Current Quests
+
+```bash
+learn --topic "networking + linux + web security"
+build --type "full-stack websites + smart projects"
+practice --arena "CTFs + security labs"
+improve --habit "write cleaner code, document better, deploy confidently"
+```
+
+## Project Direction
+
+- Build security-focused mini projects that explain the concept while proving it in code.
+- Create CTF-style challenges for practice and learning.
+- Improve frontend polish without losing performance or clarity.
+- Keep projects practical, readable, and deployable.
 
 ## Contact Route
 
